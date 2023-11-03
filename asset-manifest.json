@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/britlex/static/css/main.5f54b5e9.css",
-    "main.js": "/britlex/static/js/main.cb5b3245.js",
+    "main.css": "/britlex/static/css/main.e9d89c4b.css",
+    "main.js": "/britlex/static/js/main.188e2308.js",
+    "static/media/hero.png": "/britlex/static/media/hero.2cf68cf4ba8220a345d5.png",
+    "static/media/skill4.png": "/britlex/static/media/skill4.e0081b8fcd9097be2789.png",
+    "static/media/skill1.png": "/britlex/static/media/skill1.01abf4ae34565157b15b.png",
+    "static/media/skill2.png": "/britlex/static/media/skill2.9f222e2f0d1404f2bd9e.png",
+    "static/media/skill3.png": "/britlex/static/media/skill3.19c7182dc34c1cb04011.png",
     "index.html": "/britlex/index.html",
-    "main.5f54b5e9.css.map": "/britlex/static/css/main.5f54b5e9.css.map",
-    "main.cb5b3245.js.map": "/britlex/static/js/main.cb5b3245.js.map"
+    "main.e9d89c4b.css.map": "/britlex/static/css/main.e9d89c4b.css.map",
+    "main.188e2308.js.map": "/britlex/static/js/main.188e2308.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f54b5e9.css",
-    "static/js/main.cb5b3245.js"
+    "static/css/main.e9d89c4b.css",
+    "static/js/main.188e2308.js"
   ]
 }
