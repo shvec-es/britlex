@@ -3,7 +3,7 @@ import SkillsItem from 'components/SkillsItem/SkillsItem';
 
 const Skills = ({ title, data }) => {
   return (
-    <section>
+    <section id="skills">
       <Container>
         {title && <h2>{title}</h2>}
         <ul>

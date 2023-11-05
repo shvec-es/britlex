@@ -18,16 +18,16 @@ const Header = props => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="/">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li>
-            <a href="/">Pricing</a>
+            <a href="#pricing">Pricing</a>
           </li>
           <li>
-            <a href="/">Contacts</a>
+            <a href="#contacts">Contacts</a>
           </li>
         </ul>
         <button type="button">Let’s Talk</button>
