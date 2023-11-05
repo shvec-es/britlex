@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/britlex/static/css/main.e9d89c4b.css",
-    "main.js": "/britlex/static/js/main.188e2308.js",
+    "main.css": "/britlex/static/css/main.2265974f.css",
+    "main.js": "/britlex/static/js/main.1e7dcc21.js",
     "static/media/hero.png": "/britlex/static/media/hero.2cf68cf4ba8220a345d5.png",
+    "static/media/about.png": "/britlex/static/media/about.bfbb45d23256ce5d84b9.png",
+    "static/media/price3.png": "/britlex/static/media/price3.b6285c9b480a81af3257.png",
+    "static/media/contact.png": "/britlex/static/media/contact.00d2e95534c558950709.png",
     "static/media/skill4.png": "/britlex/static/media/skill4.e0081b8fcd9097be2789.png",
+    "static/media/price2.png": "/britlex/static/media/price2.0b5a8f92dcaa944d1227.png",
     "static/media/skill1.png": "/britlex/static/media/skill1.01abf4ae34565157b15b.png",
     "static/media/skill2.png": "/britlex/static/media/skill2.9f222e2f0d1404f2bd9e.png",
     "static/media/skill3.png": "/britlex/static/media/skill3.19c7182dc34c1cb04011.png",
+    "static/media/price1.png": "/britlex/static/media/price1.2519bbf53b880cd551d9.png",
     "index.html": "/britlex/index.html",
-    "main.e9d89c4b.css.map": "/britlex/static/css/main.e9d89c4b.css.map",
-    "main.188e2308.js.map": "/britlex/static/js/main.188e2308.js.map"
+    "main.2265974f.css.map": "/britlex/static/css/main.2265974f.css.map",
+    "main.1e7dcc21.js.map": "/britlex/static/js/main.1e7dcc21.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9d89c4b.css",
-    "static/js/main.188e2308.js"
+    "static/css/main.2265974f.css",
+    "static/js/main.1e7dcc21.js"
   ]
 }
