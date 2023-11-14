@@ -2,7 +2,7 @@ import s from './Hero.module.css';
 import Container from 'components/Container/Container';
 import hero from '../../images/hero.png';
 
-const Hero = props => {
+const Hero = ({ openModal }) => {
   return (
     <section>
       <Container clas={s.flex}>
@@ -12,7 +12,9 @@ const Hero = props => {
             With our teachers who write a program for each student, you will be
             able to make your first sketch after the first lesson.
           </p>
-          <button>Get started</button>
+          <button type="button" onClick={openModal}>
+            Get started
+          </button>
         </div>
         <img src={hero} alt="hero" width={654} />
       </Container>

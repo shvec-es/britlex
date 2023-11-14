@@ -1,7 +1,7 @@
 import s from './Header.module.css';
 import Container from 'components/Container/Container';
 
-const Header = props => {
+const Header = ({ openModal }) => {
   return (
     <header>
       <Container clas={s.flex}>
@@ -30,7 +30,9 @@ const Header = props => {
             <a href="#contacts">Contacts</a>
           </li>
         </ul>
-        <button type="button">Let’s Talk</button>
+        <button type="button" onClick={openModal}>
+          Let’s Talk
+        </button>
       </Container>
     </header>
   );
