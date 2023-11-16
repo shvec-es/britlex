@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/britlex/static/css/main.148a6872.css",
-    "main.js": "/britlex/static/js/main.8ffb55c9.js",
+    "main.js": "/britlex/static/js/main.eeea7faf.js",
     "static/media/hero.png": "/britlex/static/media/hero.2cf68cf4ba8220a345d5.png",
     "static/media/about.png": "/britlex/static/media/about.bfbb45d23256ce5d84b9.png",
     "static/media/price3.png": "/britlex/static/media/price3.b6285c9b480a81af3257.png",
@@ -14,10 +14,10 @@
     "static/media/price1.png": "/britlex/static/media/price1.2519bbf53b880cd551d9.png",
     "index.html": "/britlex/index.html",
     "main.148a6872.css.map": "/britlex/static/css/main.148a6872.css.map",
-    "main.8ffb55c9.js.map": "/britlex/static/js/main.8ffb55c9.js.map"
+    "main.eeea7faf.js.map": "/britlex/static/js/main.eeea7faf.js.map"
   },
   "entrypoints": [
     "static/css/main.148a6872.css",
-    "static/js/main.8ffb55c9.js"
+    "static/js/main.eeea7faf.js"
   ]
 }
