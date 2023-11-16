@@ -11,10 +11,14 @@ import Footer from './Footer/Footer';
 import Modal from './Modal/Modal';
 import { Component } from 'react';
 import ModalForm from './ModalForm/ModalForm';
+import SearchForm from './SearchForm/SearchForm';
+import { Weather } from './Weather/Weather';
 
 export class App extends Component {
   state = {
+    searchQuery: '',
     isModalShow: false,
+    isShowForm: false,
   };
 
   openModal = () => {
@@ -27,6 +31,10 @@ export class App extends Component {
 
   sendForm = data => {
     console.log(data);
+  };
+
+  sendWeather = data => {
+    this.setState({ searchQuery: data, isShowForm: false });
   };
   render() {
     const { isModalShow } = this.state;
@@ -41,6 +49,11 @@ export class App extends Component {
           </Modal>
         )}
         <main>
+          {this.state.isShowForm && <SearchForm onSubmit={this.sendWeather} />}
+          <Weather
+            query={this.state.searchQuery}
+            toShowForm={() => this.setState({ isShowForm: true })}
+          />
           <Hero openModal={this.openModal} />
           <Skills title="Skills" data={skills} />
           <About stats={stats} />
