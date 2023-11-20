@@ -1,7 +1,8 @@
 import { Component } from 'react';
 import Container from 'components/Container/Container';
 import Modal from 'components/Modal/Modal';
-import ModalForm from 'components/ModalForm/ModalForm';
+// import ModalForm from 'components/ModalForm/ModalForm';
+import ModalFormik from 'components/ModalForm/ModalFormik';
 
 class Price extends Component {
   state = {
@@ -42,7 +43,12 @@ class Price extends Component {
         </section>
         {this.state.isShowModal && (
           <Modal closeModal={this.closeModal}>
-            <ModalForm
+            {/* <ModalForm
+              price={this.state.price}
+              closeModal={this.closeModal}
+              sendForm={this.sendForm}
+            /> */}
+            <ModalFormik
               price={this.state.price}
               closeModal={this.closeModal}
               sendForm={this.sendForm}

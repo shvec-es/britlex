@@ -10,9 +10,10 @@ import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Modal from './Modal/Modal';
 import { Component } from 'react';
-import ModalForm from './ModalForm/ModalForm';
+// import ModalForm from './ModalForm/ModalForm';
 import SearchForm from './SearchForm/SearchForm';
 import { Weather } from './Weather/Weather';
+import ModalFormik from './ModalForm/ModalFormik';
 
 export class App extends Component {
   state = {
@@ -45,7 +46,11 @@ export class App extends Component {
         {isModalShow && (
           <Modal closeModal={this.closeModal}>
             <h3>This is modal window</h3>
-            <ModalForm closeModal={this.closeModal} sendForm={this.sendForm} />
+            {/* <ModalForm closeModal={this.closeModal} sendForm={this.sendForm} /> */}
+            <ModalFormik
+              closeModal={this.closeModal}
+              sendForm={this.sendForm}
+            />
           </Modal>
         )}
         <main>
